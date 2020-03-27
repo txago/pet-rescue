@@ -1,0 +1,28 @@
+@import '../../styles/colors';
+
+.login-bg {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: bottom;
+	align-items: flex-start;
+
+	@media (min-width: 1024px) {
+		align-items: center;
+	}
+}
+
+h1 {
+	font-size: 72px;
+	font-weight: 400;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+}
+
+.btn-purple {
+	background-color: $color-purple;
+	border-color: $color-purple;
+}

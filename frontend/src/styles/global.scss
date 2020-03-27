@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:wght@300;400;700&display=swap');
+@import './colors';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Nunito Sans', sans-serif;
+	color: $color-dark-grey;
+	background-color: $color-light-grey;
+	-webkit-font-smoothing: antialiased;
+}

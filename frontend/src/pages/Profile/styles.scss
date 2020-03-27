@@ -1,0 +1,18 @@
+@import '../../styles/colors';
+
+a.h1.profile {
+	font-size: 30px;
+	font-weight: 400;
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	color: $color-white;
+}
+
+.bg-purple {
+	background: $color-purple;
+}
+
+.page-title {
+	font-size: 48px;
+	color: $color-dark-purple;
+}
