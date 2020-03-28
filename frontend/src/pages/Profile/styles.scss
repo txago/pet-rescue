@@ -2,10 +2,11 @@
 
 a.h1.profile {
 	font-size: 30px;
-	font-weight: 400;
-	font-family: 'Anton', sans-serif;
-	text-transform: uppercase;
+	font-weight: 800;
+	font-family: 'Montserrat Alternates', sans-serif;
+	text-transform: lowercase;
 	color: $color-white;
+	letter-spacing: -0.015em;
 }
 
 .bg-purple {
@@ -15,4 +16,8 @@ a.h1.profile {
 .page-title {
 	font-size: 48px;
 	color: $color-dark-purple;
+}
+
+.card-title {
+	font-weight: 700;
 }

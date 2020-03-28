@@ -37,7 +37,7 @@ export default function Login() {
 		<div className='incident-bg pb-4'>
 			<div className='container'>
 				<div className='row align-items-center justify-content-center'>
-					<div className='col-sm-12 col-md-6'>
+					<div className='col-sm-12 col-md-10 col-lg-8 col-xl-6'>
 						<h1 className='register mt-4 text-secondary'>Cadastrar novo pet</h1>
 						<p className='lead'>
 							Conte um pouco mais sobre o pet que você quer disponibilizar para

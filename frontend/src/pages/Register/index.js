@@ -36,7 +36,7 @@ export default function Register() {
 			style={{ backgroundImage: 'url(' + petRegisterImg + ')' }}>
 			<div className='container'>
 				<div className='row align-items-center'>
-					<div className='col-sm-12 col-md-6 col-lg-4'>
+					<div className='col-sm-12 col-md-6 col-lg-5'>
 						<h1 className='register mt-4 text-secondary'>Cadastre-se</h1>
 						<p>
 							Faça o seu cadastro para utilizar a plataforma e ajudar pets e

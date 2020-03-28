@@ -33,7 +33,9 @@ export default function Login() {
 			<div className='container'>
 				<div className='row align-items-center'>
 					<div className='col-sm-12 col-md-6 col-lg-4'>
-						<h1 className='mt-4 text-primary'>PetRescue</h1>
+						<h1 className='mt-4 text-primary'>
+							Pet<span class='opacity-70'>Rescue</span>
+						</h1>
 						<form className='mb-4' onSubmit={handleLogin}>
 							<div className='form-row'>
 								<div className='form-group col-12'>

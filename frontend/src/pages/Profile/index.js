@@ -45,8 +45,8 @@ export default function Profile() {
 	return (
 		<>
 			<nav className='navbar navbar-expand-lg bg-purple navbar-dark'>
-				<Link to={'/'} className='navbar-brand mb-0 h1 profile'>
-					PETRESCUE
+				<Link to={'/'} className='navbar-brand pt-0 mb-0 h1 profile'>
+					Pet<span class='opacity-70'>Rescue</span>
 				</Link>
 				<button
 					className='navbar-toggler'
