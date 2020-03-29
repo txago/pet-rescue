@@ -52,7 +52,7 @@ export default function Register() {
 										type='text'
 										className='form-control'
 										id='inputName'
-										placeholder='Ex.: Maria dos Santos'
+										placeholder='Nome e sobrenome'
 										value={name}
 										onChange={evt => setName(evt.target.value)}
 									/>
@@ -83,7 +83,7 @@ export default function Register() {
 										type='email'
 										className='form-control'
 										id='inputEmail'
-										placeholder='login@dominio.com'
+										placeholder='usuario@dominio.com'
 										value={email}
 										onChange={evt => setEmail(evt.target.value)}
 									/>
@@ -98,7 +98,7 @@ export default function Register() {
 										type='text'
 										className='form-control'
 										id='inputWhatsapp'
-										placeholder='Número com DDD para contatos de adoção'
+										placeholder='11912345678'
 										value={whatsapp}
 										onChange={evt => setWhatsapp(evt.target.value)}
 									/>
@@ -113,7 +113,7 @@ export default function Register() {
 										type='text'
 										className='form-control'
 										id='inputCity'
-										placeholder='Ex.: São Paulo'
+										placeholder='São Paulo'
 										value={city}
 										onChange={evt => setCity(evt.target.value)}
 									/>
@@ -128,7 +128,7 @@ export default function Register() {
 										type='text'
 										className='form-control'
 										id='inputState'
-										placeholder='Ex.: SP'
+										placeholder='SP'
 										value={state}
 										onChange={evt => setEstate(evt.target.value)}
 									/>
