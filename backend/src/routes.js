@@ -9,15 +9,7 @@ const SessionController = require('./controllers/SessionController');
 const routes = express.Router();
 
 // New Login
-routes.post(
-	'/sessions',
-	celebrate({
-		[Segments.HEADERS]: Joi.object({
-			authorization: Joi.string().required()
-		}).unknown()
-	}),
-	SessionController.create
-);
+routes.post('/sessions', SessionController.create);
 // Show Rescuer
 routes.get('/rescuers', RescuerController.index);
 // New Rescuer
