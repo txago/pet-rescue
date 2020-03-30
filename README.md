@@ -1,6 +1,8 @@
 # petrescue
 
-This project was taken from the OmniStack Week 11, a challenge created by brazilian bootcamp [Rocketseat](https://github.com/Rocketseat), in which we create a web and mobile app using **Node.js, React.js and React Native**.
+This project was taken from the OmniStack Week 11, a challenge created by brazilian bootcamp [Rocketseat](https://github.com/Rocketseat), in which I created a web and mobile app using **Node.js, React.js and React Native**.
+
+![petrescue desktop and mobile app](https://raw.githubusercontent.com/txago/pet-rescue/master/frontend/src/assets/petrescue-img.png){:class="img-responsive"}
 
 ## The project
 
