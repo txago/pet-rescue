@@ -33,8 +33,8 @@ export default function Login() {
 			<div className='container'>
 				<div className='row align-items-center'>
 					<div className='col-sm-12 col-md-6 col-lg-4'>
-						<h1 className='mt-4 text-primary'>
-							Pet<span className='opacity-70'>Rescue</span>
+						<h1 className='mt-xs-4 mt-sm-4 mt-md-0 mt-lg-0 mt-xl-0 mb-4 text-primary'>
+							Pet<span className='text-info'>Rescue</span>
 						</h1>
 						<form className='mb-4' onSubmit={handleLogin}>
 							<div className='form-row'>
@@ -58,7 +58,14 @@ export default function Login() {
 								Entrar
 							</button>
 						</form>
-						🐶<Link to='/register'>Não tem cadastro? Faça aqui.</Link>
+						<Link to='/register'>
+							<button type='button' className='btn btn-light'>
+								<span role='img' aria-label='Cadastre-se'>
+									🐶
+								</span>{' '}
+								Não tem cadastro? Faça aqui.
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>

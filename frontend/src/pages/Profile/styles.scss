@@ -10,12 +10,17 @@ a.h1.profile {
 }
 
 .bg-purple {
-	background: $color-purple;
+	background: $primary;
 }
 
 .page-title {
-	font-size: 48px;
-	color: $color-dark-purple;
+	font-size: 30px;
+	color: $primary;
+	letter-spacing: -0.015em;
+
+	@media (min-width: 576px) {
+		font-size: 48px;
+	}
 }
 
 .card-title {

@@ -38,7 +38,7 @@ export default function Login() {
 			<div className='container'>
 				<div className='row align-items-center justify-content-center'>
 					<div className='col-sm-12 col-md-10 col-lg-8 col-xl-6'>
-						<h1 className='register mt-4 text-secondary'>Cadastrar novo pet</h1>
+						<h1 className='incident my-4 text-secondary'>Cadastrar novo pet</h1>
 						<p className='lead'>
 							Conte um pouco mais sobre o pet que você quer disponibilizar para
 							adoção.
@@ -90,11 +90,20 @@ export default function Login() {
 									</small>
 								</div>
 							</div>
-							<button type='submit' className='btn btn-primary btn-lg mb-4'>
+							<button
+								type='submit'
+								className='btn btn-secondary btn-lg mt-2 mb-4'>
 								Cadastrar
 							</button>
 						</form>
-						🐱<Link to='/profile'>Voltar para home</Link>
+						<Link to='/profile'>
+							<button type='button' className='btn btn-light mb-4'>
+								<span role='img' aria-label='Voltar para o login'>
+									🐱
+								</span>{' '}
+								Voltar para o login
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>

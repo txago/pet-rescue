@@ -46,7 +46,7 @@ export default function Profile() {
 		<>
 			<nav className='navbar navbar-expand-lg bg-purple navbar-dark'>
 				<Link to={'/'} className='navbar-brand pt-0 mb-0 h1 profile'>
-					Pet<span className='opacity-70'>Rescue</span>
+					Pet<span className='text-info'>Rescue</span>
 				</Link>
 				<button
 					className='navbar-toggler'
@@ -65,13 +65,13 @@ export default function Profile() {
 					</p>
 					<Link
 						to={'/incidents/new'}
-						className='btn btn-success my-2 my-sm-0 mr-2'>
+						className='btn btn-secondary my-2 my-sm-0 mr-2'>
 						Cadastrar novo pet
 					</Link>
 					<button
 						onClick={handleLogout}
 						type='button'
-						className='btn btn-outline-light my-2 my-sm-0'>
+						className='btn btn-outline-info my-2 my-sm-0'>
 						Sair
 					</button>
 				</div>

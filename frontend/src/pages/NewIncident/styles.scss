@@ -22,14 +22,20 @@
 }
 
 h1.incident {
-	font-size: 48px;
+	font-size: 30px;
+	line-height: 30px;
 	font-weight: 800;
 	font-family: 'Montserrat Alternates', sans-serif;
 	text-transform: lowercase;
 	letter-spacing: -0.015em;
+
+	@media (min-width: 576px) {
+		font-size: 48px;
+		line-height: 48px;
+	}
 }
 
 .btn-purple {
-	background-color: $color-purple;
-	border-color: $color-purple;
+	background-color: $primary;
+	border-color: $primary;
 }

@@ -37,8 +37,8 @@ export default function Register() {
 			<div className='container'>
 				<div className='row align-items-center'>
 					<div className='col-sm-12 col-md-6 col-lg-5'>
-						<h1 className='register mt-4 text-secondary'>Cadastre-se</h1>
-						<p>
+						<h1 className='register my-4 text-secondary'>Cadastre-se</h1>
+						<p className='mb-4'>
 							Faça o seu cadastro para utilizar a plataforma e ajudar pets e
 							pessoas se encontarem.
 						</p>
@@ -134,11 +134,18 @@ export default function Register() {
 									/>
 								</div>
 							</div>
-							<button type='submit' className='btn btn-primary btn-lg mb-4'>
+							<button type='submit' className='btn btn-secondary btn-lg mb-4'>
 								Cadastrar
 							</button>
 						</form>
-						🐱<Link to='/'>Voltar para o login</Link>
+						<Link to='/'>
+							<button type='button' className='btn btn-light mb-4'>
+								<span role='img' aria-label='Voltar para o login'>
+									🐱
+								</span>{' '}
+								Voltar para o login
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>
